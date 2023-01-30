@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 2</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: white;
+}
+h1 {
+   text-align: center;
+   margin-bottom: 60px;
+   margin-top: 40px;
+}
+h2 {
+  border: 1px solid black;
+  text-align: center;
+  width: 150px;
+  font-family: Helvetica;
+  color: #000000;  
+  
+}
+p {
+  border: 1px solid #000000;
+  background-color: #575555;
+  font-family: Helvetica;
+  color: white;
+  margin: 16px;
+  overflow: inherit;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+.title-1 {
+    background-color: rgb(235, 176, 186);
+}
+.title-2 {
+    background-color: rgb(146, 43, 43);
+}
+.title-3 {
+    background-color: rgb(247, 226, 192);
+}
+.title-1, .title-2, .title-3 {
+    float: right;
+    margin-right: 16px;
+}
+
+@media (min-width: 992px) {
+    .box-1, .box-2, .box-3 {
+        float: left;
+    }
+    .box-1 {
+        width: 33.33%;
+    }
+    .box-2 {
+        width: 33.33%;
+    }
+    .box-3 {
+        width: 33.33%;
+    }
+    .title-1, .title-2, .title-3 {
+        position: relative;
+        top: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box-1, .box-2, .box-3 {
+        float: left;
+    }
+    .box-1 {
+        width: 50%;
+    }
+    .box-2 {
+        width: 50%;
+    }
+    .box-3 {
+        width: 100%;
+        
+    }
+    .title-1, .title-2, .title-3 {
+        position: relative;
+        top: 16px;
+    }
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+    <h1>Our Menu</h1>
+
+<div>
+    
+    
+    
+    <div class="box-1"><div class="title-1"><h2>Chicken</h2></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nulla urna, iaculis imperdiet tempor id, laoreet eu felis. Nam nec egestas arcu. Nullam non gravida enim. Suspendisse sagittis tempus feugiat. Integer fringilla purus eu nunc ultrices, ac maximus arcu eleifend. Donec a viverra leo. Nunc molestie sed purus quis viverra. Cras dignissim pharetra quam, vel commodo lorem fermentum sed. In hac habitasse platea dictumst. Pellentesque bibendum mauris a auctor tempor. Donec posuere venenatis efficitur. Vivamus quis urna non augue porttitor pulvinar. Donec eu auctor ex.</p></div>
+    <div class="box-2"><div class="title-2"><h2>Beef</h2></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nulla urna, iaculis imperdiet tempor id, laoreet eu felis. Nam nec egestas arcu. Nullam non gravida enim. Suspendisse sagittis tempus feugiat. Integer fringilla purus eu nunc ultrices, ac maximus arcu eleifend. Donec a viverra leo. Nunc molestie sed purus quis viverra. Cras dignissim pharetra quam, vel commodo lorem fermentum sed. In hac habitasse platea dictumst. Pellentesque bibendum mauris a auctor tempor. Donec posuere venenatis efficitur. Vivamus quis urna non augue porttitor pulvinar. Donec eu auctor ex.</p></div>
+    <div class="box-3"><div class="title-3"><h2>Sushi</h2></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nulla urna, iaculis imperdiet tempor id, laoreet eu felis. Nam nec egestas arcu. Nullam non gravida enim. Suspendisse sagittis tempus feugiat. Integer fringilla purus eu nunc ultrices, ac maximus arcu eleifend. Donec a viverra leo. Nunc molestie sed purus quis viverra. Cras dignissim pharetra quam, vel commodo lorem fermentum sed. In hac habitasse platea dictumst. Pellentesque bibendum mauris a auctor tempor. Donec posuere venenatis efficitur. Vivamus quis urna non augue porttitor pulvinar. Donec eu auctor ex.</p></div>
+    
+</div>
+</body>
+</html>
